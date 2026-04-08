@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(236, 174, 174);
+    justify-content: center;
+}
+header{
+    display: flex;
+    background-color: rgb(182, 120, 118); 
+    width: 50%;
+    border:2px solid rgb(160, 77, 77);
+    border-radius: 5px; 
+    margin: 100px;
+    padding: 200px
+}
+p{
+color: rgb(0, 0, 0);
+
+}
+.subtitulado{
+    color: rgba(12, 206, 196, 0.801);
+}
+
+#cine{
+    color: red;
+}
+#inscripcion{
+    color: green;
+}
+.primero{
+    color: rgb(0, 0, 0);
+}

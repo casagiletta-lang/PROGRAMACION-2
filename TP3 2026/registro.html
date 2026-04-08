@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - Cine Las Tipas</title>
+</head>
+<body>
+    <header>
+        <h1 id="Cine">Cine Las Tipas - San Francisco</h1>
+        <img src="img/logoooo.jpg" alt="Logo" width="40%"> </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a> </li>
+            <li><a href="registro.html">Registro</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 id= "inscripcion">Inscripción al Fan Club</h2>
+        <form action="#" method="POST"> <label for="usuario">Nombre de Usuario:</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Slayer99"> 
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="pass">Contraseña:</label>
+            <input type="password" id="pass" name="pass">
+            <br><br>
+
+            <label for="nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="nacimiento" name="nacimiento"> 
+            <br><br>
+
+            <label for="categoria">Categoría Favorita:</label>
+            <select id="categoria" name="categoria"> 
+                <option value="terror">Terror</option>
+                <option value="accion">Acción</option>
+                <option value="comedia">Comedia</option>
+            </select>
+            <br><br>
+
+            <p>Tipo de Membresía:</p>
+            <input type="radio" id="gratis" name="membresia" value="gratuita" checked> 
+            <label for="gratis">Membresía Gratuita</label> 
+            
+            <input type="radio" id="vip" name="membresia" value="vip"> 
+            <label for="vip">Membresía VIP</label> 
+            <br><br>
+
+            <input type="checkbox" id="terminos" name="terminos" required> 
+            <label for="terminos">Acepto los términos</label> 
+            <br><br>
+
+            <button type="submit">Registrarse</button> 
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright 2026 - Comunidad Cinematográfica</p> 
+    </footer>
+</body>
+</html>
