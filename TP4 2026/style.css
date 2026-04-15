@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 255, 255));
+    align-content: center;
+}
+
+main{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    margin: auto;
+    width: 450px;
+    height: 550px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.banner{
+    background-image: url("./driussi.jpg");
+    background-size: cover;
+    width: 450px;
+    height: 200px;
+    top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.circulo{
+    background-image: url(./goldri.jpeg)
+    background-size cover;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 100%;
+    position: absolute;
+    left: 630px;
+    top: 150px;
+}
+
+.info{
+    padding-top: 10%;
+    align-items: center;
+    text-align: center;
+}
+.nombre{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+} 
+.linkes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkes img{
+    margin: auto;
+    margin-top: auto;
+    align-items:center;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
