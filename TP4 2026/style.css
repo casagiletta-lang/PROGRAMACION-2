@@ -62,3 +62,10 @@ main{
     width: 30px;
     height: 30px;
 }
+.seguir{
+    display: flex;
+    margin: auto;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+}
