@@ -69,3 +69,8 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.seguir img{
+    width: 130px;
+    height: 50px;
+}
