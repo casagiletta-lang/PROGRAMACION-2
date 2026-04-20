@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    align-content: center;
+}
+.Limpieza{
+    margin-left: 75px;
+}
+.contenedor-principal {
+    display: flex;
+    margin: 50px;
+    width: 900px;
+}
+
+/* Tarjeta Verde (Izquierda) */
+.tarjeta-verde {
+    background-color: #5cb85c;
+    color: white;
+    width: 50%;
+    padding: 40px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.tarjeta-verde h1 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.horarios {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.item span {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.item-limpieza {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Columna Derecha */
+.columna-derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.tarjeta-blanca {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.tarjeta-blanca h2 {
+    color: #5cb85c;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tarjeta-blanca ul {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Íconos */
+.icono-header {
+    width: 80px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icono-flotante {
+    width: 50px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icono-flotante-lista {
+    width: 50px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Puntos decorativos de las esquinas */
+.tarjeta-verde::before, .tarjeta-verde::after,
+.tarjeta-blanca::before, .tarjeta-blanca::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #444;
+    border-radius: 50%;
+}
+
+/* Posiciones de los puntos */
+.tarjeta-verde::before { top: 15px; left: 15px; }
+.tarjeta-verde::after { top: 15px; right: 15px; }
+.tarjeta-verde .puntos-esquina::before { content:""; position:absolute; bottom: 15px; left: 15px; width:15px; height:15px; background:#444; border-radius:50%; }
+.tarjeta-verde .puntos-esquina::after { content:""; position:absolute; bottom: 15px; right: 15px; width:15px; height:15px; background:#444; border-radius:50%; }
+
+.tarjeta-blanca::before { top: 15px; left: 15px; background-color: #5cb85c; }
+.tarjeta-blanca::after { top: 15px; right: 15px; background-color: #5cb85c; }
