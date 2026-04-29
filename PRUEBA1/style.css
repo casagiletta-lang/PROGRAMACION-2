@@ -1,0 +1,54 @@
+body {
+    background-color: #9ad355; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-family: sans-serif;
+}
+
+.contenedor-general {
+    display: flex;
+    align-items: center;
+    width: 900px;
+    justify-content: center;
+}
+
+.caja-gris {
+    background-color: #a3a3a3;
+    width: 400px;
+    height: 300px;
+    padding: 40px; 
+    margin-right: 40px;
+}
+
+.interior-blanco {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interior-blanco h2 {
+    font-size: 35px;
+    margin: 0;
+}   
+
+.tarjeta-blanca {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+}
+
+.florpro {
+    background-image: url(./florpro.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-top: -60px; 
+    margin-bottom: 20px;
+}
